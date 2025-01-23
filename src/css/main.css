@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure body spans the full viewport height */
+    min-height: 100vh;
 }
 a {
     text-decoration: none;
@@ -12,6 +12,7 @@ a {
     
 header {
     text-align: right;
+    padding-top: 10%;
 }
 footer {
     text-align: right;
@@ -24,7 +25,8 @@ footer {
     padding-top: 40px;
     width:272px;
     margin-top: 190px;
-    margin-left: 43%;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 .input {
@@ -44,6 +46,7 @@ footer {
 }
 .search_bar {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .input:hover {
     padding-top: 12px;
